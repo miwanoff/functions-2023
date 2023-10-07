@@ -42,5 +42,5 @@ console.log(counter1()); // 5 - первый счетчик продолжает
 console.log( counter2() ); // 2
 console.log( counter2() ); // 3
 console.log(counter1()); // 6
-
-console.log('%c Oh my heavens! ', 'background: green; color: #bada55');
+// let c = counter1();
+// console.log(`%c ${c}`, `background: ${c}; color: #bada55`);

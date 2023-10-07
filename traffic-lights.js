@@ -17,3 +17,8 @@ let trafficLight2 = trafficLight(); // 2
 console.log(trafficLight2()); 
 console.log(trafficLight1()); 
 console.log(trafficLight2()); 
+
+let c = trafficLight1();
+console.log(`%c ${c}`, `background: ${c}; color: #bada55`);
+c = trafficLight1();
+console.log(`%c ${c}`, `background: ${c}; color: #bada55`);
