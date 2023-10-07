@@ -11,12 +11,16 @@ function add() {
 }
 
 function minus() {
-    val1 = +document.getElementById("num").value;
-    action = "-";
-    //alert(val1 + action);
-  }
+  val1 = +document.getElementById("num").value;
+  action = "-";
+  //alert(val1 + action);
+}
 
 function calc() {
   val2 = +document.getElementById("num").value;
-  alert(val1 + action + val2);
+  //alert(val1 + action + val2);
+  let expr = val1 + action + val2;
+  result = eval(expr);
+  console.log(result);
+  
 }
